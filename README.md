@@ -35,7 +35,7 @@ Execute the commands below to build from source.
 
 2. To publish to local Ballerina repository:
 
-        ./gradlew publishBalaFileToLocal
+        ./gradlew publishToLocalCentral
 
 ## Contributing to Ballerina
 

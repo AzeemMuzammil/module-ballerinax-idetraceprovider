@@ -19,7 +19,7 @@ import ballerina/observe;
 
 const PROVIDER_NAME = "idetraceprovider";
 
-configurable string endpoint = "http://localhost:4318/v1/traces";
+configurable string endpoint = "http://localhost:59500/v1/traces";
 
 function init() {
     if (observe:isTracingEnabled() && observe:getTracingProvider() == PROVIDER_NAME) {

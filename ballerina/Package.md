@@ -31,5 +31,5 @@ tracingEnabled=true
 tracingProvider="idetraceprovider"
 
 [ballerinax.idetraceprovider]
-endpoint="http://localhost:4318/v1/traces"  # Optional. Default value
+endpoint="http://localhost:59500/v1/traces"  # Optional. Default value is "http://localhost:59500/v1/traces"
 ```
