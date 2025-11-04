@@ -23,12 +23,10 @@ rootProject.name = 'module-ballerinax-idetraceprovider'
 include(':build-config:checkstyle')
 include(':idetraceprovider-extension-ballerina')
 include(':idetraceprovider-extension-native')
-include(':idetraceprovider-extension-tests')
 
 project(':build-config:checkstyle').projectDir = file('build-config/checkstyle')
 project(':idetraceprovider-extension-ballerina').projectDir = file('ballerina')
 project(':idetraceprovider-extension-native').projectDir = file('native')
-project(':idetraceprovider-extension-tests').projectDir = file('ballerina-tests')
 
 gradleEnterprise {
     buildScan {
